@@ -1,6 +1,11 @@
 <template>
+  <div class="p-8">
+    <h1 class="text-3xl font-bold text-blue-600">
+      Tailwind Works
+    </h1>
+  </div>
   <div class="container mx-auto p-4">
-    <h1 class="text-3xl font-bold mb-6">MTG Tournament Standings</h1>
+    <h1 class="text-3xl font-bold mb-6">Tournament Standings</h1>
 
     <div v-for="(tournament, key) in tournaments" :key="key" class="mb-8">
       <h2 class="text-xl font-semibold mb-2">{{ tournament.name }} — {{ tournament.date }}</h2>
@@ -28,15 +33,22 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-// Reactive variable to store tournament data
 const tournaments = ref({})
 
-// Fetch JSON when component mounts
 onMounted(async () => {
-  const response = await fetch('/data/tournaments.json')  // put your file in public/data/
-  tournaments.value = await response.json()
+  try {
+    const response = await fetch('/data/tournaments.json')
+    console.log('Fetch response:', response)  // debug line
+    if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`)
+    const data = await response.json()
+    console.log('JSON data:', data)          // debug line
+    tournaments.value = data.tournaments     // check JSON structure
+  } catch (err) {
+    console.error('Error loading JSON:', err)
+  }
 })
 </script>
+
 
 <style scoped>
 table {

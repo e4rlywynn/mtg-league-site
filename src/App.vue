@@ -1,11 +1,21 @@
 <template>
+  <div class="p-10">
+    <h1 class="text-4xl font-bold text-red-600">
+      Tailwind is working
+    </h1>
+  </div>
   <router-view />  <!-- this renders the route component -->
 </template>
 
 <script setup>
 </script>
 
-
+<style scoped>
+/* optional global styles */
+body {
+  font-family: sans-serif;
+}
+</style>
 
 
 <!-- <script setup>
