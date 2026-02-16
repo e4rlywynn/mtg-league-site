@@ -1,21 +1,23 @@
 <template>
-  <div class="p-10">
-    <h1 class="text-4xl font-bold text-red-600">
-      Tailwind is working
-    </h1>
+  <div class="min-h-screen p-8 bg-gray-50">
+    <header class="mb-8">
+      <h1 class="text-4xl font-bold text-red-600 mb-4">MTG League</h1>
+      <nav class="flex space-x-4">
+        <!-- <router-link class="text-blue-600 hover:underline" to="/">Home</router-link> -->
+        <router-link class="text-blue-600 hover:underline" to="/tournaments">Tournaments</router-link>
+        <!-- <router-link class="text-blue-600 hover:underline" to="/leaderboard">Leaderboard</router-link> -->
+        <!-- <router-link class="text-blue-600 hover:underline" to="/about">About</router-link> -->
+      </nav>
+    </header>
+
+    <main>
+      <router-view />
+    </main>
   </div>
-  <router-view />  <!-- this renders the route component -->
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
-<style scoped>
-/* optional global styles */
-body {
-  font-family: sans-serif;
-}
-</style>
 
 
 <!-- <script setup>
