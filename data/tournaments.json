@@ -1,0 +1,20 @@
+{
+  "tournaments": {
+    "tournament_1": {
+      "name": "Winter Showdown",
+      "date": "2026-02-10",
+      "standings": [
+        {"player": "Alice", "points": 15, "wins": 5},
+        {"player": "Bob", "points": 12, "wins": 4}
+      ]
+    },
+    "tournament_2": {
+      "name": "Spring Clash",
+      "date": "2026-03-05",
+      "standings": [
+        {"player": "Charlie", "points": 18, "wins": 6},
+        {"player": "Dana", "points": 14, "wins": 5}
+      ]
+    }
+  }
+}
