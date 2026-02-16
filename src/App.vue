@@ -1,4 +1,14 @@
+<template>
+  <router-view />  <!-- this renders the route component -->
+</template>
+
 <script setup>
+</script>
+
+
+
+
+<!-- <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -27,4 +37,4 @@ import HelloWorld from './components/HelloWorld.vue'
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
-</style>
+</style> -->
