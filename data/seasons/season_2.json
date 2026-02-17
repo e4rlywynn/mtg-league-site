@@ -1,0 +1,24 @@
+{
+  "season": 2,
+  "year": 2026,
+  "info": "Season 2 was focused on Legacy experimentation and strong midrange presence.",
+
+  "leaderboard": [
+    { "player": "Pes Sobachii", "points": 34, "tournaments": 5 },
+    { "player": "Kot Koshachiyu", "points": 28, "tournaments": 4 },
+    { "player": "Bulatik", "points": 21, "tournaments": 3 }
+  ],
+
+  "tournaments": [
+    {
+      "name": "Modern #1",
+      "date": "March 10",
+      "location": "Unicorn Club",
+      "standings": [
+        { "place": 1, "player": "Pes Sobachii", "deck": "Rakdos Scam", "points": 9 },
+        { "place": 2, "player": "Kot Koshachiyu", "deck": "UW Control", "points": 6 },
+        { "place": 3, "player": "Bulatik", "deck": "Tron", "points": 3 }
+      ]
+    }
+  ]
+}

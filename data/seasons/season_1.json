@@ -1,0 +1,34 @@
+{
+  "season": 1,
+  "year": 2025,
+  "info": "Season 1 was focused on Modern experimentation and strong midrange presence.",
+
+  "leaderboard": [
+    { "player": "Ivan Petrov", "points": 34, "tournaments": 5 },
+    { "player": "Sergey Ivanov", "points": 28, "tournaments": 4 },
+    { "player": "Alex Smirnov", "points": 21, "tournaments": 3 }
+  ],
+
+  "tournaments": [
+    {
+      "name": "Modern #1",
+      "date": "March 10",
+      "location": "Unicorn Club",
+      "standings": [
+        { "place": 1, "player": "Ivan Petrov", "deck": "Rakdos Scam",  "colors": ["W", "U", "B", "R", "G", "C"], "points": 9, "league_points": 12},
+        { "place": 2, "player": "Sergey Ivanov", "deck": "UW Control", "points": 6 },
+        { "place": 3, "player": "Alex Smirnov", "deck": "Tron", "points": 3 }
+      ]
+    },
+    {
+      "name": "Modern #2",
+      "date": "March 17",
+      "location": "Unicorn Club",
+      "standings": [
+        { "place": 1, "player": "Ivan Petrov", "deck": "Rakdos Scam", "points": 9 },
+        { "place": 2, "player": "Sergey Ivanov", "deck": "UW Control", "points": 6 },
+        { "place": 3, "player": "Alex Smirnov", "deck": "Tron", "points": 3 }
+      ]
+    }
+  ]
+}
