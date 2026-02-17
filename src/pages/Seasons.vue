@@ -168,16 +168,22 @@
         <table class="w-full bg-white shadow-md min-w-[400px]">
           <thead>
             <tr class="bg-[#2F5D50] text-white">
-              <th class="p-3 text-left">Player</th>
-              <th class="p-3">Points</th>
-              <th class="p-3">Tournaments</th>
+              <th class="p-3 text-left">Имя</th>
+              <th class="p-3">Очки</th>
+              <th class="p-3">Турниры 4-X</th>
+              <th class="p-3">Сыграно турниров</th>
+              <th class="p-3">Турниры 3-X</th>
+              <th class="p-3">Модификаторы очков</th>
             </tr>
           </thead>
           <tbody>
             <tr v-for="player in seasonData.leaderboard" :key="player.player" class="odd:bg-gray-100">
-              <td class="p-3">{{ player.player }}</td>
-              <td class="p-3 text-center">{{ player.points }}</td>
-              <td class="p-3 text-center">{{ player.tournaments }}</td>
+              <td class="p-3">{{ player.name }}</td>
+              <td class="p-3 text-center">{{ player.pts }}</td>
+              <td class="p-3 text-center">{{ player.fourx }}</td>
+              <td class="p-3 text-center">{{ player.t_played }}</td>
+              <td class="p-3 text-center">{{ player.threex }}</td>
+              <td class="p-3 text-center">{{ player.mod }}</td>
             </tr>
           </tbody>
         </table>
