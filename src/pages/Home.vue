@@ -57,11 +57,11 @@
               hover:shadow-xl hover:-translate-y-1
               transition-all duration-200"
       >
-        Seasons
+        Сезоны
       </router-link>
 
-      <router-link
-        to="/about"
+      <!-- <router-link
+        to="/seasons2"
         class="flex items-center justify-center
               w-full sm:w-1/2
               px-10 py-4
@@ -72,10 +72,10 @@
               hover:shadow-xl hover:-translate-y-1
               transition-all duration-200"
       >
-        Leaderboard
-      </router-link>
+        seasons 2
+      </router-link> -->
 
-      <router-link
+      <!-- <router-link
         to="/about"
         class="flex items-center justify-center
               w-full sm:w-1/2
@@ -88,7 +88,7 @@
               transition-all duration-200"
       >
         About
-      </router-link>
+      </router-link> -->
 
     </div>
  </div>
