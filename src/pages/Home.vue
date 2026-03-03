@@ -31,8 +31,9 @@
     <div class="w-full max-w-md flex flex-col sm:flex-row gap-6 justify-center">
 
       <router-link
-        to="/about"
+        to="/blog"
         class="flex items-center justify-center
+              relative overflow-visible
               w-full sm:w-1/2
               px-10 py-4
               rounded-xl
@@ -42,7 +43,12 @@
               hover:shadow-xl hover:-translate-y-1
               transition-all duration-200"
       >
-        About
+        Blog
+        <span
+          class="absolute -right-4 -top-4 flex h-14 w-14 items-center justify-center rounded-full bg-[#ff4fa3] px-1 text-center text-[9px] font-black uppercase leading-[1.05] text-white shadow-[2px_2px_0px_#7a1148]"
+        >
+        Анонс нового сезона!
+        </span>
       </router-link>
 
       <router-link

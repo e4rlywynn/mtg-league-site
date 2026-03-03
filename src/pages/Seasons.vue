@@ -1,32 +1,6 @@
 <template>
   <div class="min-h-screen bg-[#A8C686]">
-
-    <!-- Navbar -->
-    <header class="w-full bg-[#F4E285] text-[#2F5D50] flex items-center gap-1 shadow-md px-4" style="min-height: 70px;">
-      <!-- Logo -->
-      <img
-        src="/logo_padded.png"
-        alt="Logo"
-        class="h-12 cursor-pointer object-contain"
-        @click="$router.push('/')"
-      />
-
-      <!-- Home button
-      <button
-        class="px-6 py-3 font-semibold flex items-center justify-center hover:bg-[#E0D06A] transition rounded-xl h-full"
-        @click="$router.push('/')"
-      >
-        Home
-      </button> -->
-
-      <!-- Seasons button (active and clickable) -->
-      <button
-        class="px-6 py-3 font-semibold flex items-center justify-center bg-[#2F5D50] text-white shadow-inner transition rounded-xl h-full"
-        @click="$router.push('/seasons')"
-      >
-        Сезоны
-      </button>
-    </header>
+    <MainNavbar active="seasons" />
 
     <div class="p-4 md:p-3 space-y-4">
 
@@ -69,7 +43,7 @@
       </div>
 
       <!-- Tournaments -->
-      <div v-if="activeTab === 'Турниры'" class="space-y-4">
+      <div v-if="activeTab === 'Турниры'" class="pt-8 space-y-4">
 
         <div
           v-for="(tournament, index) in seasonData.tournaments"
@@ -164,7 +138,7 @@
       </div>
 
       <!-- Leaderboard -->
-      <div v-if="activeTab === 'Таблица лидеров'" class="overflow-x-auto">
+      <div v-if="activeTab === 'Таблица лидеров'" class="pt-8 overflow-x-auto">
         <table class="w-full bg-white shadow-md min-w-[400px]">
           <thead>
             <tr class="bg-[#2F5D50] text-white">
@@ -206,12 +180,13 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import MainNavbar from '../components/MainNavbar.vue'
 
 const seasons = ref([1, 2])
 const selectedSeason = ref(null)
 const seasonData = ref({})
 const activeTab = ref('Турниры')
-const tabs = ['Турниры', 'Таблица лидеров', 'Info']
+const tabs = ['Турниры', 'Таблица лидеров']
 const openTournament = ref([])
 
 async function loadSeason(number) {
