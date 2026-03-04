@@ -1,23 +1,1722 @@
 {
-  "season": 2,
-  "year": 2026,
-  "info": "Season 2 was focused on Legacy experimentation and strong midrange presence.",
-
+  "season": 1,
+  "year": 2025,
+  "info": "Auto-generated season",
   "leaderboard": [
-    { "player": "Pes Sobachii", "points": 34, "tournaments": 5 },
-    { "player": "Kot Koshachiyu", "points": 28, "tournaments": 4 },
-    { "player": "Bulatik", "points": 21, "tournaments": 3 }
+    {
+      "player_id": 30,
+      "name": "Гапонов Никита",
+      "pts": 54,
+      "fourx": 1,
+      "t_played": 6,
+      "threex": 4,
+      "mod": 0
+    },
+    {
+      "player_id": 13,
+      "name": "Данилов Артем",
+      "pts": 48,
+      "fourx": 1,
+      "t_played": 6,
+      "threex": 3,
+      "mod": 0
+    },
+    {
+      "player_id": 4,
+      "name": "Бабаян Эдуард",
+      "pts": 48,
+      "fourx": 1,
+      "t_played": 6,
+      "threex": 2,
+      "mod": 0
+    },
+    {
+      "player_id": 52,
+      "name": "Хо Юрий",
+      "pts": 48,
+      "fourx": 0,
+      "t_played": 6,
+      "threex": 4,
+      "mod": 0
+    },
+    {
+      "player_id": 2,
+      "name": "Масаладжиу Роман",
+      "pts": 45,
+      "fourx": 2,
+      "t_played": 5,
+      "threex": 1,
+      "mod": 0
+    },
+    {
+      "player_id": 21,
+      "name": "Поляков Мирослав",
+      "pts": 42,
+      "fourx": 0,
+      "t_played": 6,
+      "threex": 3,
+      "mod": 0
+    },
+    {
+      "player_id": 1,
+      "name": "Давыдов Олег",
+      "pts": 36,
+      "fourx": 1,
+      "t_played": 5,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 10,
+      "name": "Глобин Анатолий",
+      "pts": 36,
+      "fourx": 1,
+      "t_played": 4,
+      "threex": 2,
+      "mod": 0
+    },
+    {
+      "player_id": 88,
+      "name": "Забродин Никита",
+      "pts": 33,
+      "fourx": 0,
+      "t_played": 5,
+      "threex": 2,
+      "mod": 0
+    },
+    {
+      "player_id": 7,
+      "name": "Орехов Даниил",
+      "pts": 30,
+      "fourx": 0,
+      "t_played": 6,
+      "threex": 1,
+      "mod": 0
+    },
+    {
+      "player_id": 14,
+      "name": "Топеха Артур",
+      "pts": 27,
+      "fourx": 0,
+      "t_played": 5,
+      "threex": 1,
+      "mod": 0
+    },
+    {
+      "player_id": 85,
+      "name": "Кузнецов Владимир",
+      "pts": 27,
+      "fourx": 0,
+      "t_played": 4,
+      "threex": 1,
+      "mod": 0
+    },
+    {
+      "player_id": 89,
+      "name": "Мипов Дмитрий",
+      "pts": 24,
+      "fourx": 1,
+      "t_played": 5,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 90,
+      "name": "Юдин Антон",
+      "pts": 24,
+      "fourx": 0,
+      "t_played": 6,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 9,
+      "name": "Грановский Дмитрий",
+      "pts": 18,
+      "fourx": 0,
+      "t_played": 3,
+      "threex": 1,
+      "mod": 0
+    },
+    {
+      "player_id": 61,
+      "name": "Глотов Николай",
+      "pts": 15,
+      "fourx": 0,
+      "t_played": 3,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 87,
+      "name": "Кузьменко Иван",
+      "pts": 15,
+      "fourx": 0,
+      "t_played": 3,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 31,
+      "name": "Шейнессон Алексей",
+      "pts": 12,
+      "fourx": 0,
+      "t_played": 2,
+      "threex": 1,
+      "mod": 0
+    },
+    {
+      "player_id": 86,
+      "name": "Мухаметзянов Амир",
+      "pts": 9,
+      "fourx": 0,
+      "t_played": 3,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 12,
+      "name": "Липчук Артем",
+      "pts": 6,
+      "fourx": 0,
+      "t_played": 4,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 6,
+      "name": "Мацаев Эмин",
+      "pts": 6,
+      "fourx": 0,
+      "t_played": 3,
+      "threex": 0,
+      "mod": 0
+    }
   ],
-
   "tournaments": [
     {
-      "name": "Modern #1",
-      "date": "March 10",
-      "location": "Unicorn Club",
+      "name": "Modern",
+      "date": "05.09.25",
+      "location": "Edinorog",
       "standings": [
-        { "place": 1, "player": "Pes Sobachii", "deck": "Rakdos Scam", "points": 9 },
-        { "place": 2, "player": "Kot Koshachiyu", "deck": "UW Control", "points": 6 },
-        { "place": 3, "player": "Bulatik", "deck": "Tron", "points": 3 }
+        {
+          "place": 1,
+          "player": "Мипов Дмитрий",
+          "deck": "Belcher",
+          "colors": [
+            "R"
+          ],
+          "points": 12,
+          "league_points": 12
+        },
+        {
+          "place": 2,
+          "player": "Глобин Анатолий",
+          "deck": "Control",
+          "colors": [
+            "W",
+            "U"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 3,
+          "player": "Поляков Мирослав",
+          "deck": "Broodscale Combo",
+          "colors": [
+            "R",
+            "G"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 4,
+          "player": "Топеха Артур",
+          "deck": "Affinity",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 5,
+          "player": "Гапонов Никита",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 6,
+          "player": "Кузнецов Владимир",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 7,
+          "player": "Хо Юрий",
+          "deck": "Eldrazi Tron",
+          "colors": [
+            "C"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 8,
+          "player": "Грановский Дмитрий",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 9,
+          "player": "Липчук Артем",
+          "deck": "Control",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 10,
+          "player": "Глотов Николай",
+          "deck": "Tron",
+          "colors": [
+            "U"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 11,
+          "player": "Мухаметзянов Амир",
+          "deck": "Amulet Titan",
+          "colors": [
+            "G"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 12,
+          "player": "Кузьменко Иван",
+          "deck": "Control",
+          "colors": [
+            "U",
+            "B"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 13,
+          "player": "Давыдов Олег",
+          "deck": "Blink",
+          "colors": [
+            "W",
+            "U",
+            "B"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 14,
+          "player": "Балыбердин Григорий",
+          "deck": "Affinity",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 0
+        },
+        {
+          "place": 15,
+          "player": "Бабаян Эдуард",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 16,
+          "player": "Рябинин Андрей",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 0
+        },
+        {
+          "place": 17,
+          "player": "Данилов Артем",
+          "deck": "Living End",
+          "colors": [
+            "W",
+            "U",
+            "B",
+            "G"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 18,
+          "player": "Юдин Антон",
+          "deck": "Amulet Titan",
+          "colors": [
+            "G"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 19,
+          "player": "Герберсгаген Максим",
+          "deck": "Burn",
+          "colors": [
+            "W",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 20,
+          "player": "Фарафонтов Арсений",
+          "deck": "Broodscale Combo",
+          "colors": [
+            "R",
+            "G"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 21,
+          "player": "Забродин Никита",
+          "deck": "Shifting Woodland Combo",
+          "colors": [
+            "U",
+            "B",
+            "G",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 22,
+          "player": "Маркелов Олег",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 23,
+          "player": "Кривошлык Максим",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 24,
+          "player": "Николаев Богдан",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 25,
+          "player": "Орехов Даниил",
+          "deck": "Frogtide",
+          "colors": [
+            "W",
+            "U",
+            "B"
+          ],
+          "points": 0,
+          "league_points": 0
+        },
+        {
+          "place": 26,
+          "player": "Мацаев Эмин",
+          "deck": "Amulet Titan",
+          "colors": [
+            "G"
+          ],
+          "points": 0,
+          "league_points": 0
+        },
+        {
+          "place": 27,
+          "player": "Боронко Алексей",
+          "deck": "Elves",
+          "colors": [
+            "G"
+          ],
+          "points": 0,
+          "league_points": 0
+        }
+      ]
+    },
+    {
+      "name": "Modern",
+      "date": "12.09.25",
+      "location": "Edinorog",
+      "standings": [
+        {
+          "place": 1,
+          "player": "Давыдов Олег",
+          "deck": "Blink",
+          "colors": [
+            "W",
+            "U",
+            "B"
+          ],
+          "points": 12,
+          "league_points": 12
+        },
+        {
+          "place": 2,
+          "player": "Масаладжиу Роман",
+          "deck": "Eldrazi",
+          "colors": [
+            "R",
+            "G"
+          ],
+          "points": 12,
+          "league_points": 12
+        },
+        {
+          "place": 3,
+          "player": "Забродин Никита",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 4,
+          "player": "Хо Юрий",
+          "deck": "Eldrazi Tron",
+          "colors": [
+            "C"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 5,
+          "player": "Бабаян Эдуард",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 6,
+          "player": "Глобин Анатолий",
+          "deck": "Control",
+          "colors": [
+            "W",
+            "U"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 7,
+          "player": "Данилов Артем",
+          "deck": "Goryo's Vengeance",
+          "colors": [
+            "W",
+            "U",
+            "B",
+            "G"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 8,
+          "player": "Байков Ярослав",
+          "deck": "Tron",
+          "colors": [
+            "G"
+          ],
+          "points": 6,
+          "league_points": 0
+        },
+        {
+          "place": 9,
+          "player": "Булатов Дмитрий",
+          "deck": "Affinity",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 0
+        },
+        {
+          "place": 10,
+          "player": "Кузнецов Владимир",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 11,
+          "player": "Поляков Мирослав",
+          "deck": "Energy",
+          "colors": [
+            "W",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 12,
+          "player": "Гапонов Никита",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 13,
+          "player": "Грановский Дмитрий",
+          "deck": "Wizards",
+          "colors": [
+            "W",
+            "U",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 14,
+          "player": "Орехов Даниил",
+          "deck": "Energy",
+          "colors": [
+            "W",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 15,
+          "player": "Глотов Николай",
+          "deck": "Tron",
+          "colors": [
+            "U"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 16,
+          "player": "Топеха Артур",
+          "deck": "Affinity",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 17,
+          "player": "Шейнессон Алексей",
+          "deck": "Control",
+          "colors": [
+            "W",
+            "U"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 18,
+          "player": "Мацаев Эмин",
+          "deck": "Prison",
+          "colors": [
+            "R"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 19,
+          "player": "Кузьменко Иван",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 20,
+          "player": "Юдин Антон",
+          "deck": "Amulet Titan",
+          "colors": [
+            "G"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 21,
+          "player": "Кривошлык Максим",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 22,
+          "player": "Мипов Дмитрий",
+          "deck": "Belcher",
+          "colors": [
+            "R"
+          ],
+          "points": 0,
+          "league_points": 0
+        },
+        {
+          "place": 23,
+          "player": "Липчук Артем",
+          "deck": "Control",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 0,
+          "league_points": 0
+        }
+      ]
+    },
+    {
+      "name": "Modern",
+      "date": "19.09.25",
+      "location": "Edinorog",
+      "standings": [
+        {
+          "place": 1,
+          "player": "Масаладжиу Роман",
+          "deck": "Eldrazi",
+          "colors": [
+            "R",
+            "G"
+          ],
+          "points": 12,
+          "league_points": 12
+        },
+        {
+          "place": 2,
+          "player": "Глобин Анатолий",
+          "deck": "Control",
+          "colors": [
+            "W",
+            "U"
+          ],
+          "points": 12,
+          "league_points": 12
+        },
+        {
+          "place": 3,
+          "player": "Поляков Мирослав",
+          "deck": "Belcher",
+          "colors": [
+            "W",
+            "U"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 4,
+          "player": "Кривошлык Максим",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 0
+        },
+        {
+          "place": 5,
+          "player": "Гапонов Никита",
+          "deck": "Frogtide",
+          "colors": [
+            "U",
+            "B"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 6,
+          "player": "Шейнессон Алексей",
+          "deck": "Energy",
+          "colors": [
+            "W",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 7,
+          "player": "Хо Юрий",
+          "deck": "Eldrazi Tron",
+          "colors": [
+            "C"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 8,
+          "player": "Орехов Даниил",
+          "deck": "Frogtide",
+          "colors": [
+            "U",
+            "B"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 9,
+          "player": "Данилов Артем",
+          "deck": "Goryo's Vengeance",
+          "colors": [
+            "W",
+            "U",
+            "B",
+            "G"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 10,
+          "player": "Бабаян Эдуард",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 11,
+          "player": "Давыдов Олег",
+          "deck": "Blink",
+          "colors": [
+            "W",
+            "U",
+            "B"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 12,
+          "player": "Забродин Никита",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 13,
+          "player": "Топеха Артур",
+          "deck": "Vivi Cauldron",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 14,
+          "player": "Юдин Антон",
+          "deck": "Amulet Titan",
+          "colors": [
+            "G"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 15,
+          "player": "Кузнецов Владимир",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 16,
+          "player": "Арепин Артем",
+          "deck": "Energy",
+          "colors": [
+            "W",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 0
+        },
+        {
+          "place": 17,
+          "player": "Глотов Николай",
+          "deck": "Tron",
+          "colors": [
+            "U"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 18,
+          "player": "Мипов Дмитрий",
+          "deck": "Energy",
+          "colors": [
+            "W",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 19,
+          "player": "Волков Данила",
+          "deck": "Control",
+          "colors": [
+            "W",
+            "U"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 20,
+          "player": "Квачко Анастасия",
+          "deck": "Through the Breach",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 21,
+          "player": "Чернобильский Леонид",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 22,
+          "player": "Грановский Дмитрий",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 23,
+          "player": "Мацаев Эмин",
+          "deck": "The Gitrog Monster",
+          "colors": [
+            "B",
+            "G"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 24,
+          "player": "Колесников Дмитрий",
+          "deck": "Land Destruction",
+          "colors": [
+            "W"
+          ],
+          "points": 0,
+          "league_points": 0
+        },
+        {
+          "place": 25,
+          "player": "Липчук Артем",
+          "deck": "Control",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 0,
+          "league_points": 0
+        }
+      ]
+    },
+    {
+      "name": "Modern",
+      "date": "26.09.25",
+      "location": "Edinorog",
+      "standings": [
+        {
+          "place": 1,
+          "player": "Гапонов Никита",
+          "deck": "Frogtide",
+          "colors": [
+            "W",
+            "U",
+            "B"
+          ],
+          "points": 12,
+          "league_points": 12
+        },
+        {
+          "place": 2,
+          "player": "Масаладжиу Роман",
+          "deck": "Eldrazi",
+          "colors": [
+            "R",
+            "G"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 3,
+          "player": "Слодарж Николай",
+          "deck": "Storm",
+          "colors": [
+            "R"
+          ],
+          "points": 9,
+          "league_points": 0
+        },
+        {
+          "place": 4,
+          "player": "Забродин Никита",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 5,
+          "player": "Данилов Артем",
+          "deck": "Goryo's Vengeance",
+          "colors": [
+            "W",
+            "U",
+            "B",
+            "G"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 6,
+          "player": "Бабаян Эдуард",
+          "deck": "Blink",
+          "colors": [
+            "W",
+            "U",
+            "B"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 7,
+          "player": "Глобин Анатолий",
+          "deck": "Control",
+          "colors": [
+            "W",
+            "U"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 8,
+          "player": "Хо Юрий",
+          "deck": "Eldrazi Tron",
+          "colors": [
+            "C"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 9,
+          "player": "Давыдов Олег",
+          "deck": "Blink",
+          "colors": [
+            "W",
+            "U",
+            "B"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 10,
+          "player": "Балыбердин Григорий",
+          "deck": "Affinity",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 0
+        },
+        {
+          "place": 11,
+          "player": "Юдин Антон",
+          "deck": "Amulet Titan",
+          "colors": [
+            "G"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 12,
+          "player": "Кривошлык Максим",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 0
+        },
+        {
+          "place": 13,
+          "player": "Кузнецов Владимир",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 14,
+          "player": "Мипов Дмитрий",
+          "deck": "Storm",
+          "colors": [
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 15,
+          "player": "Топеха Артур",
+          "deck": "Hardened Scales",
+          "colors": [
+            "R",
+            "G"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 16,
+          "player": "Поляков Мирослав",
+          "deck": "Energy",
+          "colors": [
+            "W",
+            "U"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 17,
+          "player": "Орехов Даниил",
+          "deck": "Belcher",
+          "colors": [
+            "W",
+            "U"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 18,
+          "player": "Адигамов Вениамин",
+          "deck": "Frogtide",
+          "colors": [
+            "U",
+            "B"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 19,
+          "player": "Арепин Артем",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 20,
+          "player": "Квачко Анастасия",
+          "deck": "Through the Breach",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 21,
+          "player": "Мухаметзянов Амир",
+          "deck": "Parker's Luck Combo",
+          "colors": [
+            "B",
+            "R"
+          ],
+          "points": 0,
+          "league_points": 0
+        },
+        {
+          "place": 22,
+          "player": "Балашов Михаил",
+          "deck": "Through the Breach",
+          "colors": [
+            "R",
+            "G"
+          ],
+          "points": 0,
+          "league_points": 0
+        }
+      ]
+    },
+    {
+      "name": "Modern",
+      "date": "03.10.25",
+      "location": "Edinorog",
+      "standings": [
+        {
+          "place": 1,
+          "player": "Данилов Артем",
+          "deck": "Goryo's Vengeance",
+          "colors": [
+            "W",
+            "U",
+            "B",
+            "G"
+          ],
+          "points": 12,
+          "league_points": 12
+        },
+        {
+          "place": 2,
+          "player": "Ларионов Максим",
+          "deck": "8-Rack",
+          "colors": [
+            "B"
+          ],
+          "points": 12,
+          "league_points": 0
+        },
+        {
+          "place": 3,
+          "player": "Гапонов Никита",
+          "deck": "Frogtide",
+          "colors": [
+            "W",
+            "U",
+            "B"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 4,
+          "player": "Квачко Анастасия",
+          "deck": "Through the Breach",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 0
+        },
+        {
+          "place": 5,
+          "player": "Орехов Даниил",
+          "deck": "Energy",
+          "colors": [
+            "W",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 6,
+          "player": "Хо Юрий",
+          "deck": "Eldrazi Tron",
+          "colors": [
+            "C"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 7,
+          "player": "Байков Ярослав",
+          "deck": "Eldrazi Tron",
+          "colors": [
+            "C"
+          ],
+          "points": 6,
+          "league_points": 0
+        },
+        {
+          "place": 8,
+          "player": "Давыдов Олег",
+          "deck": "Blink",
+          "colors": [
+            "W",
+            "U",
+            "B"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 9,
+          "player": "Булатов Дмитрий",
+          "deck": "Broodscale Combo",
+          "colors": [
+            "R",
+            "G"
+          ],
+          "points": 6,
+          "league_points": 0
+        },
+        {
+          "place": 10,
+          "player": "Поляков Мирослав",
+          "deck": "Birthing Ritual",
+          "colors": [
+            "U",
+            "G"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 11,
+          "player": "Забродин Никита",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 12,
+          "player": "Слодарж Николай",
+          "deck": "Samwise Combo",
+          "colors": [
+            "W",
+            "B",
+            "G"
+          ],
+          "points": 6,
+          "league_points": 0
+        },
+        {
+          "place": 13,
+          "player": "Бабаян Эдуард",
+          "deck": "Blink",
+          "colors": [
+            "W",
+            "U",
+            "B"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 14,
+          "player": "Масаладжиу Роман",
+          "deck": "Eldrazi",
+          "colors": [
+            "R",
+            "G"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 15,
+          "player": "Смирнов Алексей",
+          "deck": "Yawgmoth",
+          "colors": [
+            "B",
+            "G"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 16,
+          "player": "Мухаметзянов Амир",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 17,
+          "player": "Адигамов Вениамин",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 18,
+          "player": "Юдин Антон",
+          "deck": "Amulet Titan",
+          "colors": [
+            "G"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 19,
+          "player": "Топеха Артур",
+          "deck": "Affinity",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 20,
+          "player": "Мипов Дмитрий",
+          "deck": "Storm",
+          "colors": [
+            "R"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 21,
+          "player": "Липчук Артем",
+          "deck": "Blink",
+          "colors": [
+            "W",
+            "U",
+            "R"
+          ],
+          "points": 0,
+          "league_points": 0
+        },
+        {
+          "place": 22,
+          "player": "Сафонов Влад",
+          "deck": "Amulet Titan",
+          "colors": [
+            "G"
+          ],
+          "points": 0,
+          "league_points": 0
+        }
+      ]
+    },
+    {
+      "name": "Modern",
+      "date": "10.10.25",
+      "location": "Edinorog",
+      "standings": [
+        {
+          "place": 1,
+          "player": "Бабаян Эдуард",
+          "deck": "Blink",
+          "colors": [
+            "W",
+            "U",
+            "B"
+          ],
+          "points": 12,
+          "league_points": 12
+        },
+        {
+          "place": 2,
+          "player": "Гапонов Никита",
+          "deck": "Frogtide",
+          "colors": [
+            "W",
+            "U",
+            "B"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 3,
+          "player": "Данилов Артем",
+          "deck": "Goryo's Vengeance",
+          "colors": [
+            "W",
+            "U",
+            "B",
+            "G"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 4,
+          "player": "Поляков Мирослав",
+          "deck": "Broodscale Combo",
+          "colors": [
+            "R",
+            "G"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 5,
+          "player": "Хо Юрий",
+          "deck": "Eldrazi Tron",
+          "colors": [
+            "C"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 6,
+          "player": "Кузьменко Иван",
+          "deck": "Eldrazi",
+          "colors": [
+            "U"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 7,
+          "player": "Масаладжиу Роман",
+          "deck": "Eldrazi",
+          "colors": [
+            "R",
+            "G"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 8,
+          "player": "Аппба Константин",
+          "deck": "Domain Zoo",
+          "colors": [
+            "W",
+            "U",
+            "B",
+            "R",
+            "G"
+          ],
+          "points": 6,
+          "league_points": 0
+        },
+        {
+          "place": 9,
+          "player": "Орехов Даниил",
+          "deck": "Goryo's Vengeance",
+          "colors": [
+            "W",
+            "U",
+            "B",
+            "G"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 10,
+          "player": "Кривошлык Максим",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 11,
+          "player": "Юдин Антон",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 12,
+          "player": "Арепин Артем",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 13,
+          "player": "Герберсгаген Максим",
+          "deck": "Burn",
+          "colors": [
+            "W",
+            "R"
+          ],
+          "points": 0,
+          "league_points": 0
+        },
+        {
+          "place": 14,
+          "player": "Квачко Анастасия",
+          "deck": "Through the Breach",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 0,
+          "league_points": 0
+        }
       ]
     }
   ]
