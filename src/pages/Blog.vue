@@ -1,9 +1,9 @@
 <template>
-  <div class="relative min-h-screen overflow-hidden bg-[#9fbf74]">
+  <div class="relative min-h-screen overflow-hidden bg-[#A8C686]">
     <MainNavbar active="blog" />
 
     <div class="px-4 py-6 sm:px-8 sm:py-10">
-      <main class="relative mx-auto w-full max-w-5xl rounded-md border-4 border-[#2f5d50] bg-[#f7f3e8] p-4 shadow-[8px_8px_0px_#2f5d50] sm:p-8 sm:shadow-[10px_10px_0px_#2f5d50]">
+      <main class="relative mx-auto w-full max-w-5xl rounded-md border-4 border-[#2f5d50] bg-[#fffdf7] p-4 shadow-[8px_8px_0px_#2f5d50] sm:p-8 sm:shadow-[10px_10px_0px_#2f5d50]">
         <div class="mb-4 flex items-start justify-between gap-4 sm:mb-6">
           <div>
             <p class="text-xs font-bold uppercase tracking-widest text-[#2f5d50] sm:text-sm">Блог лиги</p>
@@ -27,7 +27,7 @@
         </section>
       </main>
 
-      <main class="relative mx-auto mt-6 w-full max-w-5xl rounded-md border-4 border-[#2f5d50] bg-[#f7f3e8] p-4 text-left shadow-[8px_8px_0px_#2f5d50] sm:mt-8 sm:p-8 sm:shadow-[10px_10px_0px_#2f5d50]">
+      <main class="relative mx-auto mt-6 w-full max-w-5xl rounded-md border-4 border-[#2f5d50] bg-[#fffdf7] p-4 text-left shadow-[8px_8px_0px_#2f5d50] sm:mt-8 sm:p-8 sm:shadow-[10px_10px_0px_#2f5d50]">
         <!-- <p class="mb-2 text-[11px] font-bold uppercase tracking-wider text-[#2f5d50] sm:mb-3 sm:text-xs">Cпонсоры и друзья 3-его сезона</p> -->
         <h2 class="mb-3 text-xl font-black uppercase text-[#1f3d2b] sm:mb-4 sm:text-2xl">Наши спонсоры и друзья</h2>
 
@@ -112,7 +112,7 @@ const announcementBlocks = [
   },
   {
     id: 3,
-    title: 'Второй БЛОК!',
+    title: 'ТРЕТИЙ БЛОК!',
     body: 'ну прям еще инфа',
   },
     {
