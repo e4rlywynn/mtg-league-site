@@ -12,7 +12,7 @@
         Zhabka League
       </div>
       <div class="mt-3 text-lg text-[#1F3D2B] opacity-80">
-        DIY competitive magic events
+        DIY competitive Magic events
       </div>
     </div>
 
