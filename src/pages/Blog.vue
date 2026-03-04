@@ -102,23 +102,23 @@ const post = {
 const announcementBlocks = [
   {
     id: 1,
-    title: 'Season Opening',
-    body: 'Registration for the next league cycle opens this week. Pairings will be generated every Friday night, and standings will be refreshed after each submitted match result.',
+    title: 'ПЕРВЫЙ БЛОК!',
+    body: 'Тут всякая инфа',
   },
   {
     id: 2,
-    title: 'Deck Rules',
-    body: 'Modern legal decks only. Sideboard swaps are allowed between rounds, but your core list must stay consistent across each tournament stage so match reporting remains clean.',
+    title: 'Второй БЛОК!',
+    body: 'ЕЩЕ МНОГО ИНФЫ',
   },
   {
     id: 3,
-    title: 'Prize Pool',
-    body: 'Top players earn league points, promo support, and final-stage seeding benefits. Keep your match records updated to avoid point penalties during season closeout.',
+    title: 'Второй БЛОК!',
+    body: 'ну прям еще инфа',
   },
     {
     id: 4,
     title: 'ЧЕТВЕРТЫЙ БЛОК!',
-    body: 'Top players earn league points, promo support, and final-stage seeding benefits. Keep your match records updated to avoid point penalties during season closeout.',
+    body: 'и вообще еще столько инфы, что вы охуеете',
   },
 ]
 

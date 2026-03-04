@@ -12,18 +12,17 @@
         Zhabka League
       </div>
       <div class="mt-3 text-lg text-[#1F3D2B] opacity-80">
-        Магия Модерна. Local Competition. Eternal Glory.
+        DIY competitive magic events
       </div>
     </div>
 
     <!-- Description -->
     <div class="max-w-xl text-center mb-12">
       <h2 class="text-2xl font-semibold text-[#1F3D2B] mb-4">
-        Competitive MTG Modern Seasons
+        Соревновательные лиги по игре в Magic: The Gathering
       </h2>
       <p class="text-[#1F3D2B] opacity-90">
-        Track tournament standings, season rankings, and deck evolution
-        across our local Modern league.
+        Следите за новостями, результатами турниров и таблицей лидеров 
       </p>
     </div>
 
@@ -43,7 +42,7 @@
               hover:shadow-xl hover:-translate-y-1
               transition-all duration-200"
       >
-        Blog
+        Блог
         <span
           class="absolute -right-4 -top-4 flex h-14 w-14 items-center justify-center rounded-full bg-[#ff4fa3] px-1 text-center text-[9px] font-black uppercase leading-[1.05] text-white shadow-[2px_2px_0px_#7a1148]"
         >

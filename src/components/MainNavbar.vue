@@ -14,7 +14,7 @@
         :class="buttonClass('blog')"
         @click="router.push('/blog')"
       >
-        Blog
+        Блог
       </button>
 
       <button

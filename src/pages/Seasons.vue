@@ -151,7 +151,11 @@
             </tr>
           </thead>
           <tbody>
-            <tr v-for="player in seasonData.leaderboard" :key="player.player" class="odd:bg-gray-100">
+            <tr
+              v-for="(player, index) in seasonData.leaderboard"
+              :key="player.name"
+              :class="leaderboardRowClass(index)"
+            >
               <td class="p-3">{{ player.name }}</td>
               <td class="p-3 text-center">{{ player.pts }}</td>
               <td class="p-3 text-center">{{ player.fourx }}</td>
@@ -202,6 +206,22 @@ function toggleTournament(index) {
   } else {
     openTournament.value.push(index)
   }
+}
+
+function isHighlightedLeaderboardRow(index) {
+  if (selectedSeason.value === 1) return index < 8
+  if (selectedSeason.value === 2) return index < 4
+  return false
+}
+
+function leaderboardRowClass(index) {
+  if (isHighlightedLeaderboardRow(index)) {
+    return index % 2 === 0
+      ? 'bg-[#F4E285] text-yellow-900 font-semibold'
+      : 'bg-[#edd77a] text-yellow-900 font-semibold'
+  }
+
+  return index % 2 === 0 ? 'bg-white' : 'bg-gray-100'
 }
 
 onMounted(() => {
