@@ -145,11 +145,12 @@ function formatPrizeText(text) {
     'https://cards.scryfall.io/large/front/6/a/6a0789b8-529d-4766-8667-65abfb4ed3bb.jpg?1771262750'
 
   return withStoreLink.replace(
-    /Guide of Souls Store Championship Promo|Guide of Soils Game Day Promo/g,
+    /Guide of Souls Store Championship Promo/g,
     (match) =>
-      `<span class="group relative inline-block align-baseline">
-        <span class="cursor-help underline decoration-dotted">${match}</span>
-        <span class="pointer-events-none absolute left-1/2 top-full z-20 mt-2 hidden w-52 -translate-x-1/2 rounded-md border-2 border-[#2f5d50] bg-[#fffdf7] p-1 shadow-[4px_4px_0px_#2f5d50] group-hover:block">
+      `<span class="guide-card-wrap relative inline-block align-baseline">
+        <button type="button" class="guide-card-trigger cursor-help underline decoration-dotted" onclick="this.parentElement.classList.toggle('is-open'); return false;">${match}</button>
+        <span class="guide-card-popover absolute left-1/2 top-full z-20 mt-2 w-52 -translate-x-1/2 rounded-md border-2 border-[#2f5d50] bg-[#fffdf7] p-1 shadow-[4px_4px_0px_#2f5d50]">
+          <button type="button" class="guide-card-close" onclick="this.closest('.guide-card-wrap').classList.remove('is-open'); return false;" aria-label="Close preview">×</button>
           <img src="${guideCardUrl}" alt="Guide of Souls Store Championship Promo" class="block w-full rounded-sm" />
         </span>
       </span>`,
@@ -233,3 +234,43 @@ const magicHelper = {
   googlePlayHref: 'https://play.google.com/store/apps/details?id=com.mtgHelper.mtg_helper',
 }
 </script>
+
+<style>
+.guide-card-popover {
+  display: none;
+}
+
+.guide-card-close {
+  position: absolute;
+  right: 4px;
+  top: 2px;
+  border: 1px solid #2f5d50;
+  background: #fffdf7;
+  color: #1f3d2b;
+  font-size: 12px;
+  line-height: 1;
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.guide-card-trigger {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.guide-card-wrap.is-open .guide-card-popover {
+  display: block;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .guide-card-wrap:hover .guide-card-popover,
+  .guide-card-wrap:focus-within .guide-card-popover {
+    display: block;
+  }
+}
+</style>
