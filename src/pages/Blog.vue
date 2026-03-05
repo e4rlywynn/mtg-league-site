@@ -14,7 +14,6 @@
         <section class="rounded-md border-2 border-[#2f5d50] bg-[#fffdf7] p-3 text-left shadow-[8px_8px_0px_#2f5d50] sm:p-6">
           <!-- <p class="mb-2 text-[11px] font-bold uppercase tracking-wider text-[#2f5d50] sm:text-xs">Featured Post</p> -->
           <h2 class="mb-1 text-xl font-black uppercase leading-tight text-[#1f3d2b] sm:text-3xl">{{ post.title }}</h2>
-          <p class="mb-4 text-[10px] font-bold uppercase tracking-wide text-[#2f5d50] sm:mb-5 sm:text-[11px]">{{ post.meta }}</p>
 
           <article
             v-for="block in announcementBlocks"
@@ -22,8 +21,30 @@
             class="mb-3 last:mb-0 sm:mb-4"
           >
             <h2 class="mb-1 text-base font-extrabold uppercase text-[#1f3d2b] sm:mb-2 sm:text-lg">{{ block.title }}</h2>
-            <p class="text-xs leading-relaxed text-[#1f3d2b] sm:text-sm">{{ block.body }}</p>
+            <template v-if="block.id === 4">
+              <p
+                v-if="parsePrizeBlock(block.body).intro"
+                class="text-xs leading-relaxed text-[#1f3d2b] sm:text-sm"
+                v-html="formatPrizeText(parsePrizeBlock(block.body).intro)"
+              >
+              </p>
+              <div class="mt-2 space-y-1.5">
+                <p
+                  v-for="(item, idx) in parsePrizeBlock(block.body).items"
+                  :key="idx"
+                  class="text-xs leading-relaxed text-[#1f3d2b] sm:text-sm"
+                  v-html="`- ${formatPrizeText(item)}`"
+                >
+                </p>
+              </div>
+            </template>
+            <p v-else-if="block.id === 3" class="text-xs leading-relaxed text-[#1f3d2b] sm:text-sm" v-html="formatPrizeText(block.body)"></p>
+            <p v-else class="text-xs leading-relaxed text-[#1f3d2b] sm:text-sm">{{ block.body }}</p>
           </article>
+
+          <p class="mt-5 border-t-2 border-[#2f5d50] pt-2 text-right text-[10px] font-bold uppercase tracking-wide text-[#2f5d50] sm:mt-6 sm:text-[11px]">
+            {{ post.meta }}
+          </p>
         </section>
       </main>
 
@@ -96,29 +117,75 @@ import MainNavbar from '../components/MainNavbar.vue'
 
 const post = {
   title: 'анонс третьего сезона!',
-  meta: '01.03.2026',
+  meta: 'Давыдов Олег, Орехов Даниил, Харин Илья, Арепин Артём | 05.03.2026',
+}
+
+function parsePrizeBlock(body) {
+  const parts = body
+    .split(/(?=\d+\.\s)/g)
+    .map((part) => part.trim())
+    .filter(Boolean)
+
+  let intro = ''
+  if (parts.length && !/^\d+\.\s/.test(parts[0])) {
+    intro = parts.shift().replace(/\s*-\s*$/, '').trim()
+  }
+
+  const items = parts.map((part) => part.replace(/^\d+\.\s*/, '').trim())
+  return { intro, items }
+}
+
+function formatPrizeText(text) {
+  const withStoreLink = text.replace(
+    /MTG:STORE/g,
+    '<a href="https://vk.com/mtg.store" target="_blank" rel="noopener noreferrer" class="font-bold underline hover:no-underline">MTG:STORE</a>',
+  )
+
+  const guideCardUrl =
+    'https://cards.scryfall.io/large/front/6/a/6a0789b8-529d-4766-8667-65abfb4ed3bb.jpg?1771262750'
+
+  return withStoreLink.replace(
+    /Guide of Souls Store Championship Promo|Guide of Soils Game Day Promo/g,
+    (match) =>
+      `<span class="group relative inline-block align-baseline">
+        <span class="cursor-help underline decoration-dotted">${match}</span>
+        <span class="pointer-events-none absolute left-1/2 top-full z-20 mt-2 hidden w-52 -translate-x-1/2 rounded-md border-2 border-[#2f5d50] bg-[#fffdf7] p-1 shadow-[4px_4px_0px_#2f5d50] group-hover:block">
+          <img src="${guideCardUrl}" alt="Guide of Souls Store Championship Promo" class="block w-full rounded-sm" />
+        </span>
+      </span>`,
+  )
 }
 
 const announcementBlocks = [
   {
     id: 1,
-    title: 'ПЕРВЫЙ БЛОК!',
-    body: 'Тут всякая инфа',
+    // title: 'ПЕРВЫЙ БЛОК!',
+    body: 'Приветствуем всех последователей культа модерна и жаб! Вы ждали, просили и верили, а значит жабья лига возвращается с новым сезоном! ',
   },
   {
     id: 2,
-    title: 'Второй БЛОК!',
-    body: 'ЕЩЕ МНОГО ИНФЫ',
+    title: 'ЧТО, где и когда?',
+    body: 'Лига cнова пройдет в формате Modern на базе нашего родного клуба Единорог на Новослободской в рамках пятничного дейлика в 19:30, и продлится 12 недель - начиная с 20.03.2026. В итоговый зачет лиги пойдут 10 ваших лучших результатов за 12 турниров, каждая победа принесет 3 очка, каждая ничья 1 очко, а поражение 0. Топ 8 игроков по набранным очкам пройдут в финал лиги, в котором сыграют на выбывание.'
   },
   {
     id: 3,
-    title: 'ТРЕТИЙ БЛОК!',
-    body: 'ну прям еще инфа',
+    title: 'Цена вопроса?',
+    body: 'Стоимость участия в лиге - 1500, из них 500 отправятся прямиком в призовой фонд, а 1000 каждый участник получит в виде индивидуального промокода на покупку карт на эту сумму в магазине MTG:STORE.',
   },
     {
     id: 4,
-    title: 'ЧЕТВЕРТЫЙ БЛОК!',
-    body: 'и вообще еще столько инфы, что вы охуеете',
+    title: 'а что по призам?',
+    body: 'В этот раз призовой фонд вкусный, как никогда: -  1. Все призовые и взносы в лигу будут распределены между участниками Топ 8 в пропорции: 1 место - 30%, 2 место - 20%, 3-4 места - 10%, 5-8 места - 7,5%. 2. Все участники Топ 8 поучаствуют в раздрафте пула стейплов, предоставленных MTG:STORE - удастся ли Вам забрать Quantum Riddler, Ocelot Pride или же комплект фечлендов покажет только время! (полный список карт для раздрафта будет опубликован позднее). 3. Победитель турнира получит памятный кубок, который будет напоминать ему о победах в славных битвах. 4. Победитель турнира также получит бесплатное участие в модерн-части турнира "СЕМЬ!" в Смоленске 27 июля. 5. Участники, занявшие 9-16 место, получат по копии Guide of Souls Store Championship Promo. 6. На <em>каждом</em> турнире будут разыграны дополнительные подарки - бустеры, карты, и, конечно, не забудем про мини-челленджи для всех участников, которые также принесут вам небольшие приятные призы.',
+  },
+    {
+    id: 5,
+    title: 'Я хочу помочь развитию локальной соревновательной магии',
+    body: 'Мы будем рады каждому, кто хочет как-либо помочь проекту, и с радостью примем спонсорскую помощь финансами или стейплами в призовой фонд лиги и благодарны любой информационной поддержке. В знак нашей признательности каждый спонсор, поддержавший проект от 5000 в любом эквиваленте, получит уникальный памятный сувенир, который будет напоминать о его вкладе в реанимацию модерна и развитие турнирной магии в нашей стране. (Дизайн представим немного позднее).'
+  },
+    {
+    id: 6,
+    title: 'у меня остались вопросы',
+    body: 'Любые вопросы и пожелания можете смело адресовать в мессенджерах или на сайте TopDeck.ru, написав @OlegJabba',
   },
 ]
 
@@ -140,6 +207,16 @@ const banners = [
     image: '/cards_eldrazi_low.png',
     alt: 'Zakaz banner',
     href: 'https://t.me/mtgcardsmoscow',
+    cta: 'Перейти в канал',
+    external: true,
+  },
+  {
+    id: 3,
+    title: 'Турнир "СЕМЬ!"',
+    description: 'Большой турнир по модерну (и не только!) в Смоленске',
+    image: '/seven_picture.jpg',
+    alt: 'Season 3 banner',
+    href: 'https://t.me/+j9KnQB-Ns5FjZTZi',
     cta: 'Перейти в канал',
     external: true,
   },
