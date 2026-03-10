@@ -141,10 +141,24 @@ function formatPrizeText(text) {
     '<a href="https://vk.com/mtg.store" target="_blank" rel="noopener noreferrer" class="font-bold underline hover:no-underline">MTG:STORE</a>',
   )
 
+  const withSpoilerImage = withStoreLink.replace(
+    /покажет только время!/g,
+    `покажет только время!
+    <span class="spoiler-wrap">
+      <button type="button" class="spoiler-trigger ml-1 underline decoration-dotted" onclick="this.parentElement.classList.toggle('is-open'); return false;">
+        [посмотреть весь пул]
+      </button>
+      <span class="spoiler-popover rounded-md border-2 border-[#2f5d50] bg-[#fffdf7] p-1 shadow-[4px_4px_0px_#2f5d50]">
+        <button type="button" class="spoiler-close" onclick="this.closest('.spoiler-wrap').classList.remove('is-open'); return false;" aria-label="Close spoiler">×</button>
+        <img src="/card_grid_05.png" alt="Card pool spoiler" class="block w-full rounded-sm" />
+      </span>
+    </span>`,
+  )
+
   const guideCardUrl =
     'https://cards.scryfall.io/large/front/6/a/6a0789b8-529d-4766-8667-65abfb4ed3bb.jpg?1771262750'
 
-  return withStoreLink.replace(
+  return withSpoilerImage.replace(
     /Guide of Souls Store Championship Promo/g,
     (match) =>
       `<span class="guide-card-wrap relative inline-block align-baseline">
@@ -166,7 +180,7 @@ const announcementBlocks = [
   {
     id: 2,
     title: 'Что, где и когда?',
-    body: 'Лига cнова пройдет в формате Modern на базе нашего родного клуба Единорог на Новослободской в рамках пятничного дейлика в 19:30, и продлится 12 недель - начиная с 20.03.2026. В итоговый зачет лиги пойдут 10 ваших лучших результатов за 12 турниров, каждая победа принесет 3 очка, каждая ничья 1 очко, а поражение 0. Топ 8 игроков по набранным очкам пройдут в финал лиги, в котором сыграют на выбывание.'
+    body: 'Лига cнова пройдет в формате Modern на базе нашего родного клуба Единорог на Новослободской в рамках дейлика каждый четверг в 19:30, и продлится 12 недель - начиная с 19.03.2026. В итоговый зачет лиги пойдут 10 ваших лучших результатов за 12 турниров, каждая победа принесет 3 очка, каждая ничья 1 очко, а поражение 0. Топ 8 игроков по набранным очкам пройдут в финал лиги, в котором сыграют на выбывание.'
   },
   {
     id: 3,
@@ -176,7 +190,7 @@ const announcementBlocks = [
     {
     id: 4,
     title: 'А что по призам?',
-    body: 'В этот раз призовой фонд вкусный, как никогда: -  1. Все призовые и взносы в лигу будут распределены между участниками Топ 8 в пропорции: 1 место - 30%, 2 место - 20%, 3-4 места - 10%, 5-8 места - 7,5%. 2. Все участники Топ 8 поучаствуют в раздрафте пула стейплов, предоставленных MTG:STORE - удастся ли Вам забрать Quantum Riddler, Ocelot Pride или же комплект фечлендов покажет только время! (полный список карт для раздрафта будет опубликован позднее). 3. Победитель турнира получит памятный кубок, который будет напоминать ему о победах в славных битвах. 4. Победитель турнира также получит бесплатное участие в модерн-части турнира "СЕМЬ!" в Смоленске 27 июля. 5. Участники, занявшие 9-16 место, получат по копии Guide of Souls Store Championship Promo. 6. На <em>каждом</em> турнире будут разыграны дополнительные подарки - бустеры, карты, и, конечно, не забудем про мини-челленджи для всех участников, которые также принесут вам небольшие приятные призы.',
+    body: 'В этот раз призовой фонд вкусный, как никогда: -  1. Все призовые и взносы в лигу будут распределены между участниками Топ 8 в пропорции: 1 место - 30%, 2 место - 20%, 3-4 места - 10%, 5-8 места - 7,5%. 2. Все участники Топ 8 поучаствуют в раздрафте пула стейплов, предоставленных MTG:STORE - удастся ли Вам забрать Quantum Riddler, Ocelot Pride или же ретро фечленд, покажет только время! 3. Победитель турнира получит памятный кубок, который будет напоминать ему о победах в славных битвах. 4. Победитель турнира также получит бесплатное участие в модерн-части турнира "СЕМЬ!" в Смоленске 26 июля. 5. Участники, занявшие 9-16 место, получат по копии Guide of Souls Store Championship Promo. 6. На <em>каждом</em> турнире будут разыграны дополнительные подарки - бустеры, карты, и, конечно, не забудем про мини-челленджи для всех участников, которые также принесут вам небольшие приятные призы.',
   },
     {
     id: 5,
@@ -240,7 +254,26 @@ const magicHelper = {
   display: none;
 }
 
+.spoiler-popover {
+  display: none;
+}
+
 .guide-card-close {
+  position: absolute;
+  right: 4px;
+  top: 2px;
+  border: 1px solid #2f5d50;
+  background: #fffdf7;
+  color: #1f3d2b;
+  font-size: 12px;
+  line-height: 1;
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.spoiler-close {
   position: absolute;
   right: 4px;
   top: 2px;
@@ -263,8 +296,34 @@ const magicHelper = {
   font: inherit;
 }
 
+.spoiler-trigger {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: #2f5d50;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 .guide-card-wrap.is-open .guide-card-popover {
   display: block;
+}
+
+.spoiler-wrap {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+}
+
+.spoiler-wrap.is-open .spoiler-popover {
+  display: block;
+}
+
+.spoiler-popover {
+  position: relative;
+  width: 100%;
+  margin-top: 0.5rem;
 }
 
 @media (hover: hover) and (pointer: fine) {
