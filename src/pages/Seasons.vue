@@ -186,7 +186,7 @@
 import { ref, onMounted } from 'vue'
 import MainNavbar from '../components/MainNavbar.vue'
 
-const seasons = ref([1, 2])
+const seasons = ref([])
 const selectedSeason = ref(null)
 const seasonData = ref({})
 const activeTab = ref('Турниры')
@@ -211,6 +211,7 @@ function toggleTournament(index) {
 function isHighlightedLeaderboardRow(index) {
   if (selectedSeason.value === 1) return index < 8
   if (selectedSeason.value === 2) return index < 4
+  if (selectedSeason.value === 3) return index < 8
   return false
 }
 
@@ -224,8 +225,35 @@ function leaderboardRowClass(index) {
   return index % 2 === 0 ? 'bg-white' : 'bg-gray-100'
 }
 
-onMounted(() => {
-  loadSeason(seasons.value[seasons.value.length - 1])
+async function discoverSeasons() {
+  const candidates = Array.from({ length: 20 }, (_, index) => index + 1)
+
+  const results = await Promise.all(
+    candidates.map(async (season) => {
+      try {
+        const res = await fetch(`/data/seasons/season_${season}.json`)
+        if (!res.ok) return null
+
+        const contentType = res.headers.get('content-type') || ''
+        if (!contentType.includes('application/json')) return null
+
+        await res.json()
+        return season
+      } catch {
+        return null
+      }
+    }),
+  )
+
+  seasons.value = results.filter((season) => season !== null)
+}
+
+onMounted(async () => {
+  await discoverSeasons()
+
+  if (seasons.value.length > 0) {
+    loadSeason(seasons.value[seasons.value.length - 1])
+  }
 })
 </script>
 
