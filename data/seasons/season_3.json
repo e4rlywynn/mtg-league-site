@@ -1,0 +1,435 @@
+{
+  "season": 3,
+  "year": 2026,
+  "info": "Auto-generated season",
+  "leaderboard": [
+    {
+      "player_id": 18,
+      "name": "Гаврилов Никита",
+      "pts": 12,
+      "fourx": 1,
+      "t_played": 1,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 9,
+      "name": "Грановский Дмитрий",
+      "pts": 9,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 1,
+      "mod": 0
+    },
+    {
+      "player_id": 1,
+      "name": "Давыдов Олег",
+      "pts": 9,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 1,
+      "mod": 0
+    },
+    {
+      "player_id": 101,
+      "name": "Крутов Виталий",
+      "pts": 9,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 1,
+      "mod": 0
+    },
+    {
+      "player_id": 28,
+      "name": "Русинович Андрей",
+      "pts": 9,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 1,
+      "mod": 0
+    },
+    {
+      "player_id": 14,
+      "name": "Топеха Артур",
+      "pts": 9,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 1,
+      "mod": 0
+    },
+    {
+      "player_id": 42,
+      "name": "Харин Илья",
+      "pts": 9,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 1,
+      "mod": 0
+    },
+    {
+      "player_id": 87,
+      "name": "Кузьменко Иван",
+      "pts": 7,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 86,
+      "name": "Мухаметзянов Амир",
+      "pts": 7,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 30,
+      "name": "Гапонов Никита",
+      "pts": 6,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 94,
+      "name": "Кривошлык Максим",
+      "pts": 6,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 2,
+      "name": "Масаладжиу Роман",
+      "pts": 6,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 52,
+      "name": "Хо Юрий",
+      "pts": 6,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 88,
+      "name": "Забродин Никита",
+      "pts": 4,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 7,
+      "name": "Орехов Даниил",
+      "pts": 4,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 4,
+      "name": "Бабаян Эдуард",
+      "pts": 3,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 61,
+      "name": "Глотов Николай",
+      "pts": 3,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 12,
+      "name": "Липчук Артем",
+      "pts": 3,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 100,
+      "name": "Федулов Ринат",
+      "pts": 3,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 96,
+      "name": "Квачко Анастасия",
+      "pts": 0,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 0,
+      "mod": 0
+    }
+  ],
+  "tournaments": [
+    {
+      "name": "Modern",
+      "date": "19.03.26",
+      "location": "Edinorog",
+      "standings": [
+        {
+          "place": 1,
+          "player": "Гаврилов Никита",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 12,
+          "league_points": 12
+        },
+        {
+          "place": 2,
+          "player": "Грановский Дмитрий",
+          "deck": "Metalcraft",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 3,
+          "player": "Топеха Артур",
+          "deck": "Affinity",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 4,
+          "player": "Давыдов Олег",
+          "deck": "Blink",
+          "colors": [
+            "W",
+            "U",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 5,
+          "player": "Харин Илья",
+          "deck": "Blink",
+          "colors": [
+            "W",
+            "U",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 6,
+          "player": "Крутов Виталий",
+          "deck": "Energy",
+          "colors": [
+            "W",
+            "R"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 7,
+          "player": "Русинович Андрей",
+          "deck": "Samwise Combo",
+          "colors": [
+            "W",
+            "B",
+            "G"
+          ],
+          "points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 8,
+          "player": "Мухаметзянов Амир",
+          "deck": "Eldrazi",
+          "colors": [
+            "R",
+            "G"
+          ],
+          "points": 7,
+          "league_points": 7
+        },
+        {
+          "place": 9,
+          "player": "Кузьменко Иван",
+          "deck": "Eldrazi",
+          "colors": [
+            "U"
+          ],
+          "points": 7,
+          "league_points": 7
+        },
+        {
+          "place": 10,
+          "player": "Николаев Богдан",
+          "deck": "Dredge",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 0
+        },
+        {
+          "place": 11,
+          "player": "Гапонов Никита",
+          "deck": "Energy",
+          "colors": [
+            "W",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 12,
+          "player": "Кривошлык Максим",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 13,
+          "player": "Хо Юрий",
+          "deck": "Eldrazi Tron",
+          "colors": [
+            "C"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 14,
+          "player": "Масаладжиу Роман",
+          "deck": "Domain Zoo",
+          "colors": [
+            "W",
+            "U",
+            "B",
+            "R",
+            "G"
+          ],
+          "points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 15,
+          "player": "Орехов Даниил",
+          "deck": "Goryo's Vengeance",
+          "colors": [
+            "W",
+            "U",
+            "B",
+            "G"
+          ],
+          "points": 4,
+          "league_points": 4
+        },
+        {
+          "place": 16,
+          "player": "Забродин Никита",
+          "deck": "Goryo's Vengeance",
+          "colors": [
+            "W",
+            "U",
+            "B",
+            "G"
+          ],
+          "points": 4,
+          "league_points": 4
+        },
+        {
+          "place": 17,
+          "player": "Глотов Николай",
+          "deck": "Dice Factory",
+          "colors": [
+            "C"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 18,
+          "player": "Федулов Ринат",
+          "deck": "Grinding Station",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 19,
+          "player": "Липчук Артем",
+          "deck": "Flash",
+          "colors": [
+            "U",
+            "B"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 20,
+          "player": "Бабаян Эдуард",
+          "deck": "Delirium",
+          "colors": [
+            "B",
+            "R"
+          ],
+          "points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 21,
+          "player": "Квачко Анастасия",
+          "deck": "Amulet Titan",
+          "colors": [
+            "G"
+          ],
+          "points": 0,
+          "league_points": 0
+        }
+      ]
+    }
+  ]
+}
