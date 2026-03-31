@@ -148,6 +148,15 @@
       "mod": 0
     },
     {
+      "player_id": 36,
+      "name": "Шедяков Александр",
+      "pts": 9,
+      "fourx": 0,
+      "t_played": 1,
+      "threex": 1,
+      "mod": 0
+    },
+    {
       "player_id": 86,
       "name": "Мухаметзянов Амир",
       "pts": 7,
@@ -589,7 +598,7 @@
           "league_record": "3-1-0",
           "points": 9,
           "raw_points": 9,
-          "league_points": 0
+          "league_points": 9
         },
         {
           "place": 5,
