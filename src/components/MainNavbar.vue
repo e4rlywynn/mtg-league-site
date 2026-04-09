@@ -2,7 +2,7 @@
   <header class="w-full h-[70px] bg-[#F4E285] text-[#2F5D50] flex items-stretch shadow-md px-4">
     <div class="flex h-full items-center">
       <img
-        src="/logo_padded.png"
+        src="/toad_new.png"
         alt="Logo"
         class="h-12 cursor-pointer object-contain"
         @click="router.push('/')"

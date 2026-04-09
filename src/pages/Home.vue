@@ -4,7 +4,7 @@
     <!-- Logo -->
     <div class="mb-8 text-center">
     <img 
-        src="/logo.png" 
+        src="/toad_new.png" 
         alt="Zhabka League Logo" 
         class="w-40 mx-auto mb-6 drop-shadow-lg"
         />
