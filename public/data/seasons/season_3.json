@@ -6,100 +6,145 @@
     {
       "player_id": 30,
       "name": "Гапонов Никита",
-      "pts": 65,
+      "pts": 74,
       "fourx": 1,
-      "t_played": 8,
-      "threex": 4,
+      "t_played": 9,
+      "threex": 5,
       "mod": 0
     },
     {
       "player_id": 40,
       "name": "Анисимов Роман",
-      "pts": 57,
+      "pts": 64,
       "fourx": 2,
-      "t_played": 6,
+      "t_played": 7,
       "threex": 3,
       "mod": 0
     },
     {
       "player_id": 100,
       "name": "Федулов Ринат",
-      "pts": 56,
+      "pts": 63,
       "fourx": 1,
-      "t_played": 8,
+      "t_played": 9,
       "threex": 2,
       "mod": 0
     },
     {
-      "player_id": 14,
-      "name": "Топеха Артур",
-      "pts": 54,
-      "fourx": 0,
+      "player_id": 22,
+      "name": "Арепин Артем",
+      "pts": 63,
+      "fourx": 1,
       "t_played": 8,
       "threex": 3,
       "mod": 0
     },
     {
+      "player_id": 14,
+      "name": "Топеха Артур",
+      "pts": 63,
+      "fourx": 0,
+      "t_played": 9,
+      "threex": 4,
+      "mod": 0
+    },
+    {
       "player_id": 52,
       "name": "Хо Юрий",
-      "pts": 52,
+      "pts": 58,
       "fourx": 1,
-      "t_played": 8,
+      "t_played": 9,
       "threex": 1,
       "mod": 0
     },
     {
       "player_id": 87,
       "name": "Кузьменко Иван",
-      "pts": 51,
+      "pts": 57,
       "fourx": 0,
-      "t_played": 8,
-      "threex": 3,
-      "mod": 0
-    },
-    {
-      "player_id": 22,
-      "name": "Арепин Артем",
-      "pts": 51,
-      "fourx": 0,
-      "t_played": 7,
+      "t_played": 9,
       "threex": 3,
       "mod": 0
     },
     {
       "player_id": 88,
       "name": "Забродин Никита",
-      "pts": 50,
+      "pts": 56,
       "fourx": 1,
-      "t_played": 8,
-      "threex": 1,
-      "mod": 0
-    },
-    {
-      "player_id": 1,
-      "name": "Давыдов Олег",
-      "pts": 46,
-      "fourx": 2,
-      "t_played": 6,
+      "t_played": 9,
       "threex": 1,
       "mod": 0
     },
     {
       "player_id": 36,
       "name": "Шедяков Александр",
-      "pts": 46,
+      "pts": 55,
+      "fourx": 0,
+      "t_played": 8,
+      "threex": 4,
+      "mod": 0
+    },
+    {
+      "player_id": 2,
+      "name": "Масаладжиу Роман",
+      "pts": 53,
+      "fourx": 0,
+      "t_played": 7,
+      "threex": 4,
+      "mod": 0
+    },
+    {
+      "player_id": 1,
+      "name": "Давыдов Олег",
+      "pts": 52,
+      "fourx": 2,
+      "t_played": 7,
+      "threex": 1,
+      "mod": 0
+    },
+    {
+      "player_id": 8,
+      "name": "Давыдов Владимир",
+      "pts": 51,
       "fourx": 0,
       "t_played": 7,
       "threex": 3,
       "mod": 0
     },
     {
-      "player_id": 8,
-      "name": "Давыдов Владимир",
-      "pts": 45,
+      "player_id": 18,
+      "name": "Гаврилов Никита",
+      "pts": 48,
+      "fourx": 1,
+      "t_played": 7,
+      "threex": 2,
+      "mod": 0
+    },
+    {
+      "player_id": 28,
+      "name": "Русинович Андрей",
+      "pts": 48,
       "fourx": 0,
-      "t_played": 6,
-      "threex": 3,
+      "t_played": 7,
+      "threex": 2,
+      "mod": 0
+    },
+    {
+      "player_id": 7,
+      "name": "Орехов Даниил",
+      "pts": 46,
+      "fourx": 0,
+      "t_played": 9,
+      "threex": 2,
+      "mod": 0
+    },
+    {
+      "player_id": 42,
+      "name": "Харин Илья",
+      "pts": 46,
+      "fourx": 0,
+      "t_played": 8,
+      "threex": 1,
       "mod": 0
     },
     {
@@ -112,92 +157,56 @@
       "mod": 0
     },
     {
-      "player_id": 42,
-      "name": "Харин Илья",
-      "pts": 43,
-      "fourx": 0,
-      "t_played": 7,
-      "threex": 1,
-      "mod": 0
-    },
-    {
-      "player_id": 2,
-      "name": "Масаладжиу Роман",
-      "pts": 43,
-      "fourx": 0,
-      "t_played": 6,
-      "threex": 3,
-      "mod": 0
-    },
-    {
-      "player_id": 28,
-      "name": "Русинович Андрей",
+      "player_id": 51,
+      "name": "Волков Данила",
       "pts": 42,
       "fourx": 0,
-      "t_played": 6,
-      "threex": 2,
-      "mod": 0
-    },
-    {
-      "player_id": 18,
-      "name": "Гаврилов Никита",
-      "pts": 39,
-      "fourx": 1,
-      "t_played": 6,
-      "threex": 1,
-      "mod": 0
-    },
-    {
-      "player_id": 7,
-      "name": "Орехов Даниил",
-      "pts": 37,
-      "fourx": 0,
-      "t_played": 8,
-      "threex": 1,
+      "t_played": 5,
+      "threex": 4,
       "mod": 0
     },
     {
       "player_id": 4,
       "name": "Бабаян Эдуард",
-      "pts": 37,
+      "pts": 40,
       "fourx": 0,
-      "t_played": 8,
+      "t_played": 9,
       "threex": 0,
-      "mod": 0
-    },
-    {
-      "player_id": 51,
-      "name": "Волков Данила",
-      "pts": 33,
-      "fourx": 0,
-      "t_played": 4,
-      "threex": 3,
       "mod": 0
     },
     {
       "player_id": 86,
       "name": "Мухаметзянов Амир",
-      "pts": 32,
+      "pts": 38,
       "fourx": 0,
-      "t_played": 7,
+      "t_played": 8,
       "threex": 1,
       "mod": 0
     },
     {
       "player_id": 31,
       "name": "Шейнессон Алексей",
-      "pts": 30,
+      "pts": 34,
       "fourx": 1,
-      "t_played": 4,
+      "t_played": 5,
       "threex": 1,
       "mod": 0
     },
     {
       "player_id": 12,
       "name": "Липчук Артем",
+      "pts": 21,
+      "fourx": 0,
+      "t_played": 7,
+      "threex": 0,
+      "mod": 0
+    },
+    {
+      "player_id": 96,
+      "name": "Квачко Анастасия",
       "pts": 18,
       "fourx": 0,
-      "t_played": 6,
+      "t_played": 7,
       "threex": 0,
       "mod": 0
     },
@@ -215,16 +224,7 @@
       "name": "Глотов Николай",
       "pts": 16,
       "fourx": 0,
-      "t_played": 7,
-      "threex": 0,
-      "mod": 0
-    },
-    {
-      "player_id": 96,
-      "name": "Квачко Анастасия",
-      "pts": 15,
-      "fourx": 0,
-      "t_played": 6,
+      "t_played": 8,
       "threex": 0,
       "mod": 0
     },
@@ -3556,6 +3556,469 @@
           ],
           "record": "0-3-0",
           "league_record": "0-3-0",
+          "points": 0,
+          "raw_points": 0,
+          "league_points": 0
+        }
+      ]
+    },
+    {
+      "name": "Modern",
+      "date": "14.05.26",
+      "location": "Edinorog",
+      "standings": [
+        {
+          "place": 1,
+          "raw_place": 1,
+          "player": "Арепин Артем",
+          "deck": "Control",
+          "colors": [
+            "W",
+            "U",
+            "R"
+          ],
+          "record": "4-0-0",
+          "league_record": "4-0-0",
+          "points": 12,
+          "raw_points": 12,
+          "league_points": 12
+        },
+        {
+          "place": 2,
+          "raw_place": 2,
+          "player": "Масаладжиу Роман",
+          "deck": "Blink",
+          "colors": [
+            "W",
+            "U",
+            "R"
+          ],
+          "record": "3-0-1",
+          "league_record": "3-0-1",
+          "points": 10,
+          "raw_points": 10,
+          "league_points": 10
+        },
+        {
+          "place": 3,
+          "raw_place": 3,
+          "player": "Гаврилов Никита",
+          "deck": "Necrodominance",
+          "colors": [
+            "B"
+          ],
+          "record": "3-1-0",
+          "league_record": "3-1-0",
+          "points": 9,
+          "raw_points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 4,
+          "raw_place": 4,
+          "player": "Орехов Даниил",
+          "deck": "Storm",
+          "colors": [
+            "W",
+            "R"
+          ],
+          "record": "3-1-0",
+          "league_record": "3-1-0",
+          "points": 9,
+          "raw_points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 5,
+          "raw_place": 5,
+          "player": "Гапонов Никита",
+          "deck": "Affinity",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "record": "3-1-0",
+          "league_record": "3-1-0",
+          "points": 9,
+          "raw_points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 6,
+          "raw_place": 6,
+          "player": "Шедяков Александр",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "record": "3-1-0",
+          "league_record": "3-1-0",
+          "points": 9,
+          "raw_points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 7,
+          "raw_place": 7,
+          "player": "Топеха Артур",
+          "deck": "Ramp",
+          "colors": [
+            "G"
+          ],
+          "record": "3-1-0",
+          "league_record": "3-1-0",
+          "points": 9,
+          "raw_points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 8,
+          "raw_place": 8,
+          "player": "Волков Данила",
+          "deck": "Hollow One",
+          "colors": [
+            "B",
+            "R",
+            "G"
+          ],
+          "record": "3-1-0",
+          "league_record": "3-1-0",
+          "points": 9,
+          "raw_points": 9,
+          "league_points": 9
+        },
+        {
+          "place": 9,
+          "raw_place": 9,
+          "player": "Федулов Ринат",
+          "deck": "Through the Breach",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "record": "2-1-1",
+          "league_record": "2-1-1",
+          "points": 7,
+          "raw_points": 7,
+          "league_points": 7
+        },
+        {
+          "place": 10,
+          "raw_place": 10,
+          "player": "Анисимов Роман",
+          "deck": "Emry",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "record": "2-1-1",
+          "league_record": "2-1-1",
+          "points": 7,
+          "raw_points": 7,
+          "league_points": 7
+        },
+        {
+          "place": 11,
+          "raw_place": 11,
+          "player": "Карягин Никита",
+          "deck": "Urza's Saga",
+          "colors": [
+            "B",
+            "R",
+            "G"
+          ],
+          "record": "2-2-0",
+          "league_record": "2-2-0",
+          "points": 6,
+          "raw_points": 6,
+          "league_points": 0
+        },
+        {
+          "place": 12,
+          "raw_place": 12,
+          "player": "Кузьменко Иван",
+          "deck": "Eldrazi",
+          "colors": [
+            "U"
+          ],
+          "record": "2-2-0",
+          "league_record": "2-2-0",
+          "points": 6,
+          "raw_points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 13,
+          "raw_place": 13,
+          "player": "Кузнецов Евгений",
+          "deck": "Energy",
+          "colors": [
+            "W",
+            "R"
+          ],
+          "record": "2-2-0",
+          "league_record": "2-2-0",
+          "points": 6,
+          "raw_points": 6,
+          "league_points": 0
+        },
+        {
+          "place": 14,
+          "raw_place": 14,
+          "player": "Хо Юрий",
+          "deck": "Tron",
+          "colors": [
+            "C"
+          ],
+          "record": "2-2-0",
+          "league_record": "2-2-0",
+          "points": 6,
+          "raw_points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 15,
+          "raw_place": 15,
+          "player": "Давыдов Владимир",
+          "deck": "Reanimator",
+          "colors": [
+            "W",
+            "U",
+            "R"
+          ],
+          "record": "2-2-0",
+          "league_record": "2-2-0",
+          "points": 6,
+          "raw_points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 16,
+          "raw_place": 16,
+          "player": "Мухаметзянов Амир",
+          "deck": "Dredge",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "record": "2-2-0",
+          "league_record": "2-2-0",
+          "points": 6,
+          "raw_points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 17,
+          "raw_place": 17,
+          "player": "Забродин Никита",
+          "deck": "Goryo's Vengeance",
+          "colors": [
+            "W",
+            "U",
+            "B",
+            "G"
+          ],
+          "record": "2-2-0",
+          "league_record": "2-2-0",
+          "points": 6,
+          "raw_points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 18,
+          "raw_place": 18,
+          "player": "Русинович Андрей",
+          "deck": "Samwise Combo",
+          "colors": [
+            "W",
+            "B",
+            "G"
+          ],
+          "record": "2-2-0",
+          "league_record": "2-2-0",
+          "points": 6,
+          "raw_points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 19,
+          "raw_place": 19,
+          "player": "Давыдов Олег",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "record": "2-2-0",
+          "league_record": "2-2-0",
+          "points": 6,
+          "raw_points": 6,
+          "league_points": 6
+        },
+        {
+          "place": 20,
+          "raw_place": 20,
+          "player": "Шейнессон Алексей",
+          "deck": "Control",
+          "colors": [
+            "W",
+            "U",
+            "R"
+          ],
+          "record": "1-2-1",
+          "league_record": "1-2-1",
+          "points": 4,
+          "raw_points": 4,
+          "league_points": 4
+        },
+        {
+          "place": 21,
+          "raw_place": 21,
+          "player": "Поляков Мирослав",
+          "deck": "Amulet Titan",
+          "colors": [
+            "G"
+          ],
+          "record": "1-3-0",
+          "league_record": "1-3-0",
+          "points": 3,
+          "raw_points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 22,
+          "raw_place": 22,
+          "player": "Квачко Анастасия",
+          "deck": "Amulet Titan",
+          "colors": [
+            "G"
+          ],
+          "record": "1-1-0",
+          "league_record": "1-1-0",
+          "points": 3,
+          "raw_points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 23,
+          "raw_place": 23,
+          "player": "Рагулин Вадим",
+          "deck": "Prowess",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "record": "1-3-0",
+          "league_record": "1-3-0",
+          "points": 3,
+          "raw_points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 24,
+          "raw_place": 24,
+          "player": "Липчук Артем",
+          "deck": "Wizards",
+          "colors": [
+            "W",
+            "U",
+            "R"
+          ],
+          "record": "1-2-0",
+          "league_record": "1-2-0",
+          "points": 3,
+          "raw_points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 25,
+          "raw_place": 25,
+          "player": "Мипов Дмитрий",
+          "deck": "Affinity",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "record": "1-3-0",
+          "league_record": "1-3-0",
+          "points": 3,
+          "raw_points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 26,
+          "raw_place": 26,
+          "player": "Мареев Тимофей",
+          "deck": "Storm",
+          "colors": [
+            "W",
+            "R"
+          ],
+          "record": "1-3-0",
+          "league_record": "1-3-0",
+          "points": 3,
+          "raw_points": 3,
+          "league_points": 0
+        },
+        {
+          "place": 27,
+          "raw_place": 27,
+          "player": "Бабаян Эдуард",
+          "deck": "Reanimator",
+          "colors": [
+            "U",
+            "B",
+            "R"
+          ],
+          "record": "1-3-0",
+          "league_record": "1-3-0",
+          "points": 3,
+          "raw_points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 28,
+          "raw_place": 28,
+          "player": "Харин Илья",
+          "deck": "Energy",
+          "colors": [
+            "W",
+            "R"
+          ],
+          "record": "1-3-0",
+          "league_record": "1-3-0",
+          "points": 3,
+          "raw_points": 3,
+          "league_points": 3
+        },
+        {
+          "place": 29,
+          "raw_place": 29,
+          "player": "Слодарж Николай",
+          "deck": "Yawgmoth",
+          "colors": [
+            "B",
+            "G"
+          ],
+          "record": "0-2-0",
+          "league_record": "0-2-0",
+          "points": 0,
+          "raw_points": 0,
+          "league_points": 0
+        },
+        {
+          "place": 30,
+          "raw_place": 30,
+          "player": "Глотов Николай",
+          "deck": "Tron",
+          "colors": [
+            "U"
+          ],
+          "record": "0-4-0",
+          "league_record": "0-4-0",
           "points": 0,
           "raw_points": 0,
           "league_points": 0
